@@ -144,8 +144,8 @@ library(modelsummary)
 # mcmc_intervals(first_model, prob = 0.9) +
 #   labs(x = "90 per cent credibility interval")
 
-modelplot(first_model, conf_level = 0.9) +
-  labs(x = "90 per cent credibility interval")
+modelplot(first_model, conf_level = 0.9) 
+  
 ```
 
 # Discussion
